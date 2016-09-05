@@ -1,10 +1,20 @@
 {
-  "name": "form-user-app",
+  "name": "form-builder-user-app",
   "private": true,
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "classname": "0.0.0",
+    "deepcopy": "^0.6.3",
+    "form-builder": "https://github.com/clearbridgesoft/form-builder/releases/download/v0.0.2/form-builder-0.0.2.tgz",
+    "form-components": "git+https://github.com/clearbridgesoft/form-custom-components.git",
+    "meteor-node-stubs": "^0.2.3",
+    "moment": "^2.14.1",
+    "react": "^15.3.1",
+    "react-datetime": "^2.5.0",
+    "react-dom": "^15.3.1",
+    "react-ui-tree": "^2.5.0",
+    "url": "^0.11.0"
   }
 }
